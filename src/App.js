@@ -6,9 +6,11 @@ import { RiDashboardFill } from "react-icons/ri";
 import { BrowserRouter as Router, Routes, Route, Link, BrowserRouter } from "react-router-dom";
 
 function App() {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useStatne(true);
   const [menuOpen, setMenuOpen] = useState(false);
   // const [start, setStart] = useState(true)
+  // const [start, setStart] = useState(true)
+
 
   const Menus = [
     { title: "Dashboard", link: "/" },
